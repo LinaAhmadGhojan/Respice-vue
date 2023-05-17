@@ -1,33 +1,174 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+
+
+
+    <div class="latest_trand_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="trand_info text-center">
+                        <p>Thousands of recipes are waiting to be watched</p>
+                        <h3>Discover latest trending recipes</h3>
+                        <a href="/respices" class="boxed-btn3">View all Recipes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ latest_trand     -->
+    
+    <!-- customer_feedback_area  -->
+    <div class="customer_feedback_area">
+        <div class="container">
+            <div class="row justify-content-center mb-50">
+                <div class="col-xl-9">
+                    <div class="section_title text-center">
+                        <h3>Feedback From Customers</h3>
+                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher
+                            conduct standards especially <br> in the workplace. That’s why it’s crucial that, as
+                            women.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="customer_active owl-carousel">
+                        <div class="single_customer d-flex">
+                            <div class="thumb">
+                                <img src="../assets/img/testmonial/2.png" alt="">
+                            </div>
+                            <div class="customer_meta">
+                                <h3>Adame Nesane</h3>
+                                <span>Chief Customer</span>
+                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won
+                                    one yielding creepeth third give may never lie alternet food.</p>
+                            </div>
+                        </div>
+                        <div class="single_customer d-flex">
+                            <div class="thumb">
+                                <img src="../assets/img/testmonial/1.png" alt="">
+                            </div>
+                            <div class="customer_meta">
+                                <h3>Adame Nesane</h3>
+                                <span>Chief Customer</span>
+                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won
+                                    one yielding creepeth third give may never lie alternet food.</p>
+                            </div>
+                        </div>
+                        <div class="single_customer d-flex">
+                            <div class="thumb">
+                                <img src="../assets/img/testmonial/2.png" alt="">
+                            </div>
+                            <div class="customer_meta">
+                                <h3>Adame Nesane</h3>
+                                <span>Chief Customer</span>
+                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won
+                                    one yielding creepeth third give may never lie alternet food.</p>
+                            </div>
+                        </div>
+                        <div class="single_customer d-flex">
+                            <div class="thumb">
+                                <img src="../assets/img/testmonial/1.png" alt="">
+                            </div>
+                            <div class="customer_meta">
+                                <h3>Adame Nesane</h3>
+                                <span>Chief Customer</span>
+                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won
+                                    one yielding creepeth third give may never lie alternet food.</p>
+                            </div>
+                        </div>
+                        <div class="single_customer d-flex">
+                            <div class="thumb">
+                                <img src="../assets/img/testmonial/2.png" alt="">
+                            </div>
+                            <div class="customer_meta">
+                                <h3>Adame Nesane</h3>
+                                <span>Chief Customer</span>
+                                <p>You're had. Subdue grass Meat us winged years you'll doesn't. fruit two also won
+                                    one yielding creepeth third give may never lie alternet food.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div class="recepie_area" style="padding-top:90px">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single_recepie text-center">
+                    <div class="recepie_thumb">
+                        <img src="../assets/img/recepie/recpie_1.png" alt="">
+                    </div>
+                    <h3>Egg Manchurian</h3>
+                    <span>Appetizer</span>
+                    <p>Time Needs: 30 Mins</p>
+                    <a href="#" class="line_btn">View Full Recipe</a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single_recepie text-center">
+                    <div class="recepie_thumb">
+                        <img src="../assets/img/recepie/recpie_2.png" alt="">
+                    </div>
+                    <h3>Pure Vegetable Bowl</h3>
+                    <span>Appetizer</span>
+                    <p>Time Needs: 30 Mins</p>
+                    <a href="#" class="line_btn">View Full Recipe</a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single_recepie text-center">
+                    <div class="recepie_thumb">
+                        <img src="../assets/img/recepie/recpie_3.png" alt="">
+                    </div>
+                    <h3>Egg Masala Ramen</h3>
+                    <span>Appetizer</span>
+                    <p>Time Needs: 30 Mins</p>
+                    <a href="#" class="line_btn">View Full Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="dish_area">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-12">
+              <div class="dish_wrap d-flex">
+                  <div class="single_dish text-center">
+                      <div class="thumb">
+                          <img src="../assets/img/recepie/recpie_4.png" alt="">
+                      </div>
+                      <h3>Birthday Catering</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div class="single_dish text-center">
+                      <div class="thumb">
+                          <img src="../assets/img/recepie/recpie_5.png" alt="">
+                      </div>
+                      <h3>Birthday Catering</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div class="single_dish text-center">
+                      <div class="thumb">
+                          <img src="../assets/img/recepie/recpie_6.png" alt="">
+                      </div>
+                      <h3>Birthday Catering</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
+
+</div>
 </template>
 
 <script>
